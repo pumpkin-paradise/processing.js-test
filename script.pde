@@ -11,7 +11,7 @@ void setup()
 void draw(){  
 var x = 0;
 var y = 0;
-while (x < 400) {
+while (x < 801) {
 text(x, x, 10);
 x += 50;
 
