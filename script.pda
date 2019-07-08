@@ -1,6 +1,14 @@
-fill(17, 0, 255);
+void setup()
+{
+  size(200,200);
+  background(125);
+  fill(17, 0, 255);
+  noLoop();
+  PFont fontA = loadFont("courier");
+  textFont(fontA, 14);  
+}
 
-// a handy dandy ruler across the top
+void draw(){  
 var x = 0;
 var y = 0;
 while (x < 400) {
@@ -12,3 +20,7 @@ while (y < 401) {
 text(y,0,y);
 y +=50;
 }
+}
+
+
+
