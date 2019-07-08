@@ -2,10 +2,8 @@ void setup()
 {
   size(800,400);
   background(125);
-  fill(17, 0, 255);
-  noLoop();
-  PFont fontA = loadFont("courier");
-  textFont(fontA, 14);  
+  fill(255,255,255);
+  noLoop();  
 }
 
 void draw(){  
