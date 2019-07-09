@@ -11,14 +11,15 @@ void setup() {
 
 void draw() { 
   background(51);
-  
-  float targetX = mouseX;
-  float dx = targetX - x;
-  x += dx;
-  
-  float targetY = mouseY;
-  float dy = targetY - y;
-  y += dy;
-  
-  ellipse(x, y, 66, 66);
+  if (mousePressed{
+    float targetX = mouseX;
+    float dx = targetX - x;
+    x += dx;
+
+    float targetY = mouseY;
+    float dy = targetY - y;
+    y += dy;
+
+    ellipse(x, y, 66, 66);
+  }
 }
