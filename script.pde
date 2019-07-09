@@ -16,19 +16,19 @@ void setup(){
  
 void draw(){
   background(80);
-  image(b,x,y,50 *26/21,50);
+  image(b,x,y,40 *26/21,40);
 }
  
 void keyPressed() {
   if (key == CODED) {
     if (keyCode == UP) {
-      y -= 1;
+      y -= 4;
     } else if (keyCode == DOWN) {
-      y += 1;
+      y += 4;
     } else if (keyCode == LEFT) {
-      x -= 1;
+      x -= 4;
     } else if (keyCode == RIGHT) {
-      x += 1;
+      x += 4;
     }  
   } 
 }
