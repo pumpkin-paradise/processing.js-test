@@ -1,24 +1,24 @@
-void setup()
-{
-  size(800,400);
-  background(125);
-  fill(255,255,255);
-  noLoop();  
+// Code taken from examples from the Processing website.
+
+
+float x;
+float y;
+
+void setup() {
+  size(640, 360); 
+  noStroke();  
 }
 
-void draw(){  
-var x = 0;
-var y = 0;
-while (x < 801) {
-text(x, x, 10);
-x += 50;
-
+void draw() { 
+  background(51);
+  
+  float targetX = mouseX;
+  float dx = targetX - x;
+  x += dx;
+  
+  float targetY = mouseY;
+  float dy = targetY - y;
+  y += dy;
+  
+  ellipse(x, y, 66, 66);
 }
-while (y < 401) {
-text(y,0,y);
-y +=50;
-}
-}
-
-
-
