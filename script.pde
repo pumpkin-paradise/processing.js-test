@@ -13,24 +13,42 @@ void setup() {
   noStroke();  
 }
 
-void draw() { 
-  background(51);
-  image(b, x, y);
-      if(keyPressed)
-    {
-      if(key==CODED)
-      {
-        if(keyCode==UP)
-         {
-          y-=5; 
-         }
-         else if(keyCode == DOWN) 
-         {
-          y+=5;  
-         }
-      } 
-    }//end of if key pressed 
-    
+var x = width/2;
+var y = height/2;
 
-}
+
+void draw() {
+    background(255,255,255);
+    image(getImage("avatars/aqualine-seed"),x-50,y-50);
+};
+void keyPressed() {
     
+    if (key.toString() === 'w') {
+        
+            background(255, 255, 255);
+        image(getImage("avatars/aqualine-seed"),x-50,y-50);
+        y -= 5;
+        
+        
+    }
+    if (key.toString() === 's') {
+        background(255, 255, 255);
+        image(getImage("avatars/aqualine-seed"),x-50,y-50);
+        y += 5;
+    }
+    if (key.toString() === 'a') {
+        background(255, 255, 255);
+        image(getImage("avatars/aqualine-seed"),x-50,y-50);
+        x -= 5;
+    }
+    if (key.toString() === 'd') {
+        background(255, 255, 255);
+        image(getImage("avatars/aqualine-seed"),x-50,y-50);
+        x += 5;
+    }
+};
+
+    // Conditionally display based on string value 
+
+
+
