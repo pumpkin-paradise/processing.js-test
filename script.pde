@@ -1,25 +1,19 @@
-// Code taken from examples from the Processing website.
+// @pjs preload must be used to preload the image
 
+/* @pjs preload="pumpkinHead.png"; */
 
-float x;
-float y;
+PImage b;
 
 void setup() {
-  size(640, 360); 
+  b = loadImage("pumpkinHead.png");
+  noLoop();
+  size(800, 400); 
   noStroke();  
 }
 
 void draw() { 
   background(51);
-  if (mousePressed{
-    float targetX = mouseX;
-    float dx = targetX - x;
-    x += dx;
-
-    float targetY = mouseY;
-    float dy = targetY - y;
-    y += dy;
-
-    ellipse(x, y, 66, 66);
-  }
+  image(b, 0, 0);
 }
+
+
