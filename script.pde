@@ -1,5 +1,8 @@
+// @pjs preload must be used to preload the image	
+/* @pjs preload="pumpkinHead.png"; */	
 
-PImage img;  // Declare variable "a" of type PImage
+PImage b;	
+
 
 
 
