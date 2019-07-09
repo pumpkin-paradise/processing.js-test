@@ -35,23 +35,8 @@ class Player
   
   void display()
    { 
-    line(0,200,700,200);
-    line(0,300,700,300);
-    line(0,400,700,400);
-
-    fill(0);
-    ellipse(e,eY,80,50);
-    
-    fill(#F3F156);
-    rect(r1,eY,58,58);
-    
-    fill(#90F614);
-    rect(r2,eY+10,7,7);
-    rect(r3,eY+10,7,7);
-    
-    
-    fill(#EF1A1A);
-    rect(r4,eY+30,16,9); 
+   background(255, 255, 255);
+image(getImage("pumpkinHead"),r1,eY);
     
     move(); 
      
