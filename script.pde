@@ -3,8 +3,8 @@
 /* @pjs preload="pumpkinHead.png"; */
 
 PImage b;
-var x = width/2;
-var y = height/2;
+var x = 400;
+var y = 200;
 
 void setup() {
   b = loadImage("pumpkinHead.png");
