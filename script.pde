@@ -10,13 +10,13 @@ int x = 0;
 int y = 0;
  
 void setup(){
-  size (400, 400);  
+  size (800, 400);  
   b = loadImage("pumpkinHead.png"); 
 }
  
 void draw(){
   background(80);
-  image(b,x,y);
+  image(b,x,y,50,40);
 }
  
 void keyPressed() {
