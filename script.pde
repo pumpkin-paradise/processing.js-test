@@ -16,9 +16,7 @@ void setup() {
 void draw() { 
   background(51);
   image(b, x, y);
-}
-    
-    if(keyPressed)
+      if(keyPressed)
     {
       if(key==CODED)
       {
@@ -32,4 +30,7 @@ void draw() {
          }
       } 
     }//end of if key pressed 
+    
+
+}
     
