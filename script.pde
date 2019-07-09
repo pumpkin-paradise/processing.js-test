@@ -11,7 +11,7 @@ int y = 0;
  
 void setup(){
   size (400, 400);  
-  img = loadImage("pumpkinHead.png"); 
+  b = loadImage("pumpkinHead.png"); 
 }
  
 void draw(){
