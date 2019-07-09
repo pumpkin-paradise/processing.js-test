@@ -13,31 +13,34 @@ void setup() {
   noStroke();  
 }
 
+
+
+
 var x = width/2;
 var y = height/2;
 
 
-void draw() {
+draw = function() {
     background(255,255,255);
-    image(b,x,y);
+    image(b,x-50,y-50);
 };
-void keyPressed() {
+var keyPressed = function() {
     
-    if (key.toString() == 'w') {
+    if (key.toString() === 'w') {
         y -= 5;
+        
+        
     }
-    if (key.toString() == 's') {
+    if (key.toString() === 's') {
         y += 5;
     }
-    if (key.toString() == 'a') {
+    if (key.toString() === 'a') {
         x -= 5;
     }
-    if (key.toString() == 'd') {
+    if (key.toString() === 'd') {
         x += 5;
     }
 };
 
     // Conditionally display based on string value 
-
-
 
