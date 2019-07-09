@@ -24,15 +24,23 @@ void draw() {
 void keyPressed() {
     
     if (key.toString() === 'w') {
+        background(255,255,255);
+    image(b,x-50,y-50);
         y -= 5;
     }
     if (key.toString() === 's') {
+        background(255,255,255);
+    image(b,x-50,y-50);
         y += 5;
     }
     if (key.toString() === 'a') {
+        background(255,255,255);
+    image(b,x-50,y-50);
         x -= 5;
     }
     if (key.toString() === 'd') {
+        background(255,255,255);
+    image(b,x-50,y-50);
         x += 5;
     }
 };
