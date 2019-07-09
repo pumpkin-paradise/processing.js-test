@@ -19,12 +19,10 @@ void draw(){
   image(b,x,y,40 *26/21,40);
 }
  
-void keyPressed() {
+if(keyPressed) {
   if (key == CODED) {
     if (keyCode == UP) {
-    while(keyPressed){
       y -= 4;
-      }
     } else if (keyCode == DOWN) {
       y += 4;
     } else if (keyCode == LEFT) {
