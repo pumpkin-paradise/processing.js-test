@@ -22,7 +22,9 @@ void draw(){
 void keyPressed() {
   if (key == CODED) {
     if (keyCode == UP) {
+    while(keyPressed){
       y -= 4;
+      }
     } else if (keyCode == DOWN) {
       y += 4;
     } else if (keyCode == LEFT) {
