@@ -3,6 +3,8 @@
 /* @pjs preload="pumpkinHead.png"; */
 
 PImage b;
+var x = width/2;
+var y = height/2;
 
 void setup() {
   b = loadImage("pumpkinHead.png");
@@ -13,7 +15,7 @@ void setup() {
 
 void draw() { 
   background(51);
-  image(b, 0, 0);
+  image(b, x, y);
 }
     
     if(keyPressed)
