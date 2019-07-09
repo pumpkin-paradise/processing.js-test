@@ -19,7 +19,7 @@ var y = height/2;
 
 void draw() {
     background(255,255,255);
-    image(b,x-50,y-50);
+    image(b,x,y);
 };
 void keyPressed() {
     
