@@ -1,13 +1,19 @@
+
+PImage img;  // Declare variable "a" of type PImage
+
+
+
 int x = 0;
 int y = 0;
  
 void setup(){
   size (400, 400);  
+  img = loadImage("pumpkinHead.png"); 
 }
  
 void draw(){
   background(80);
-  rect(x, y, 25,25);
+  image(b,x,y);
 }
  
 void keyPressed() {
