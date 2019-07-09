@@ -24,7 +24,7 @@ void keyPressed() {
   } 
 }
 
-/*int x = 0;
+/* int x = 0;
 int y = 0;
  
 // @pjs preload must be used to preload the image
