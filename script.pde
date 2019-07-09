@@ -16,7 +16,7 @@ void setup(){
  
 void draw(){
   background(80);
-  image(b,x,y,50,40);
+  image(b,x,y,50 *26/21,50);
 }
  
 void keyPressed() {
