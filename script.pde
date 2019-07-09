@@ -1,8 +1,16 @@
 //not my code sry
 
+// @pjs preload must be used to preload the image
+
+
+/* @pjs preload="pumpkinHead.png"; */
+
+PImage b;
+
 Player p; 
 
 void setup() {
+size(640, 360); 	  b = loadImage("pumpkinHead.png
 
 size(700,500);
 
