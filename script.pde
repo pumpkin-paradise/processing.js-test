@@ -6,8 +6,8 @@ PImage b;
 
 
 
-int x = 400;
-int y = 200;
+int x = 0;
+int y = 0;
  
 void setup(){
   size (800, 400);  
@@ -20,13 +20,13 @@ void draw(){
   if(keyPressed) {
   if (key == CODED) {
     if (keyCode == UP) {
-      y -= 2;
+      y -= 4;
     } else if (keyCode == DOWN) {
-      y += 2;
+      y += 4;
     } else if (keyCode == LEFT) {
-      x -= 2;
+      x -= 4;
     } else if (keyCode == RIGHT) {
-      x += 2;
+      x += 4;
     }  
   } 
 }
