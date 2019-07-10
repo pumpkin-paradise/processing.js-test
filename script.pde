@@ -17,19 +17,19 @@ void setup(){
 void draw(){
   background(80); //draw the background
   image(b,x,y,40 *26/21,40); // pumpkin head
-  if(keyPressed) {
-    if (key.toString() === 'w') { // if the key pressed is w,
-      y -= 4; // go up by 4px every frame
-    } else if (key.toString() === 's') { // if the key pressed is s,
-      y += 4; // go down by 4px every frame
-    } else if (key.toString() === 'a') { // if the key pressed is a,
-      x -= 4; // go left by 4px every frame
-    } else if (key.toString() === 'd') { // if the key pressed is d,
-      x += 4; // go right by 4px every frame
+   if(keyPressed) {
+  if (key == CODED) {
+    if (keyCode == UP) {
+      y -= 1.25;
+    } else if (keyCode == DOWN) {
+      y += 1.25;
+    } else if (keyCode == LEFT) {
+      x -= 1.25;
+    } else if (keyCode == RIGHT) {
+      x += 1.25;
     }  
+  } 
 }
-}
- 
 
 
 
