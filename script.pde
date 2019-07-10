@@ -15,20 +15,6 @@ void setup(){
 }
  
 void draw(){
-<<<<<<< HEAD
-  background(80); //draw the background
-  image(b,x,y,40 *26/21,40); // pumpkin head
-   if(keyPressed) {
-  if (key == CODED) {
-    if (keyCode == UP) {
-      y -= 1.25;
-    } else if (keyCode == DOWN) {
-      y += 1.25;
-    } else if (keyCode == LEFT) {
-      x -= 1.25;
-    } else if (keyCode == RIGHT) {
-      x += 1.25;
-=======
   background(80);
   image(b,x,y,40 *26/21,40);
   if(keyPressed) {
@@ -41,7 +27,6 @@ void draw(){
       x -= 4;
     } else if (keyCode == RIGHT) {
       x += 4;
->>>>>>> parent of 0b275f5... changed control from arrow keys to wasd
     }  
   } 
 }
