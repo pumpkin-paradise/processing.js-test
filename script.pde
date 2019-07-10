@@ -1,5 +1,5 @@
 // @pjs preload must be used to preload the image	
-/* @pjs preload="pumpkinHead.png"; */	
+/* @pjs preload="images/pumpkin/pumpkinHeadD.png"; */	
 
 PImage b;	
 
