@@ -20,7 +20,7 @@ void setup(){
 void draw(){
   background(80);
   image(b,x,y,40 *26/21,40);
-  image(c,x+7,y+7,30 *26/21,30);
+  image(c,x+7.5,y+6,30 *26/21,30);
   if(keyPressed) {
   if (key == CODED) {
     if (keyCode == UP) {
